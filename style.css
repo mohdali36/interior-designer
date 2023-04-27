@@ -1,0 +1,465 @@
+.navbar {
+  padding: 10px 15px ;
+  margin-left: 10px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 30px;
+  /* padding-right: 150px; */
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: white;
+}
+
+.na-btn{
+  margin-right: 80px;
+} 
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translate(-100%);
+  transition: all 1s;
+}
+.show{
+opacity: 1;
+filter: blur(0);
+transform: translateX(0);
+}
+
+.slider{
+  padding-top: 10px;
+}
+
+
+.text-box{
+  width: 600px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  color: #000;
+}
+ 
+.be{
+  font-family: 'Cookie', cursive;
+}
+/* Title Section */
+
+#title {
+  background-color: black;
+  color: #fff;
+  text-align:end;
+}
+
+#title .container-fluid {
+  padding: 0;
+}
+
+  .d-font{
+    font-family: 'Cookie', cursive;
+    font-size: x-large;
+  }
+  
+.d{
+  font-family: 'Cookie', cursive;
+  font-size:larger;
+}
+
+  .detail{
+    padding: 30px 50px;
+   
+  }
+  .fst{
+    background-image: url("images/Living.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+    color: black;
+    width: 100%;
+  }
+  div.row{
+    padding: 35px 50px;
+    font-size: 55px;
+  
+  }
+
+.row{
+  background-color: #F8FFDB;
+}
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  h3{
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  p{
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  h6{
+    font-family: 'Poppins', sans-serif;
+  }
+.image{
+ min-width: 80%;
+ min-height: 100%;
+ padding: 5px 5px;
+}
+
+div.transbox{
+  padding: 10px 10px;
+margin: 0px;
+background-color: #ffff;
+border: 1px solid black;
+opacity: 0.5;
+}
+div.transbox p{
+  margin: 5%;
+  font-weight: bold;
+  color: #000;
+}
+
+.res{
+  width: 25%;
+  height: 100%;
+}
+
+.ab{
+  text-align: center;
+ padding: 40px 40px;
+}
+.final{
+  text-align: center;
+  padding: 20px 0;
+  background-color: white;
+}
+.card{
+  text-align: left;
+}
+.Kpis{
+
+  text-align: center;
+  padding: 30 30;
+  background-color: #FAF7F0
+}
+.work{
+width: 100%;
+height: 50%;
+}
+
+.up{
+  width: 50%;;
+}
+
+.second{
+  background-color: #EDE4E0;
+}
+
+#middle{
+  /* background-color: #EDE4E0; */
+  padding: 10 10;
+}
+.brands{
+  background-color: #EDE4E0;
+  text-align: center;
+  padding: 10px;
+}
+.text-center{
+  
+  text-align: center;
+  padding: 20px 20px;
+
+}
+.v{
+  margin-bottom: -50px;
+}
+.font{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: larger;
+  padding: 0;
+}
+
+.yel{
+  padding :0.5rem 5rem;
+  border-style:3rem 0.5rem;
+  font-size:1.25rem;
+  border-radius: 0;
+}
+
+.font-b{
+  font-size: xx-large;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.offer{
+  padding: 100 100;
+  height: 272.2;
+  width: 513.3;
+}
+
+.btn1{
+  padding: 50 50;
+  margin-top: 5;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.R{
+align-items: center;
+
+}
+
+.read{
+ padding: 3px 40px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.testimonials-img{
+  width:20%;
+  margin: 20px;
+}
+
+.carousel-inner{
+  padding: 20px 0;
+}
+
+#footer{
+  text-align:center;
+  background-color:black;
+  color: white;
+  padding: 0;
+}
+.foot{
+  background-color: black;
+}
+
+.F{
+  font-size:large;
+}
+
+.INT{
+  font-size: small;
+}
+
+.dropdown-content{
+position: absolute;
+background-color: #ef8172;
+height: 400;
+width: 400
+}
+Button.dropbtn{
+  height: 400;
+  width: 400;
+}
+
+
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+ background-color: #666;
+}
+
+.p-4 {
+  padding: 1.5rem!important;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+      background: white;
+    
+  background-size: cover;
+}
+.contact .content
+{
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2
+{
+  font-size: 35px;
+  font-weight: 500;
+  color:black;
+}
+.contact .content p
+{
+
+  font-weight: 300;
+  color: rgb(25, 6, 6);
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+.container .contactInfo
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box
+{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon
+{
+min-width: 60px;
+height: 60px;
+background:gray;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 22px;
+
+}
+.container .contactInfo .box .text
+{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: rgb(10, 2, 2);
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+  font-weight: 500;
+  color: #052225;
+
+}
+.contactForm{
+  width: 400px;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactForm h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span{
+position: absolute;
+left: 0;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+pointer-events: none;
+transition: 0.5%;
+color: #666;
+
+}
+.contactForm .inputBox input[type="submit"]
+{
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#footer{
+  text-align:center;
+}
+
+@media(max-width:991px)
+{
+.contact{
+  padding: 50px;
+}
+.na-btn{
+  padding: 0;
+}    
+.container{
+  flex-direction: column;
+}
+.container .contactInfo{
+  margin-bottom: 40px;
+}
+.container .contactInfo{
+  width: 100%;
+}
+}
+.res{
+  width: 90%;
+  height: 100%;
+
+}
+.v{
+  margin-bottom: 10px;
+}
+
+.up{
+  width: 100%;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden{
+    transition: none;
+  }
+}
+
+
